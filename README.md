@@ -11,11 +11,11 @@ and have fun.
 
 1. Meeting a common point - 6 AM
 2. Bus journey start      - 7 AM
-3. Lunch time             - 12 Noon
-4. Tea break              - 4.30 PM
-5. Play time              -4.30 PM -8.30 PM
-6. end time               - 8.30 PM
-7. daily meeting          -11.30 AM-1.30 PM
+3. Daily meeting          - 11.30 AM - 1.30 PM
+4. Lunch time             - 12 Noon
+5. Tea break              - 4.30 PM
+6. Play time              - 4.30 PM -8.30 PM
+7. End journey start      - 8.30 PM
 
 ## Student Stories
 
