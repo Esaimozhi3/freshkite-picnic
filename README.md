@@ -15,8 +15,7 @@ and have fun.
 4. Lunch time             - 12 Noon
 5. Tea break              - 4.30 PM
 6. Play time              - 4.30 PM -8.30 PM
-7. End journey start      - 8.30 PM
-
-## Student Stories
+7. End Journey starts     - 8.30 PM
+8. Dinner Time            - 9.00 PM
 
 1. ["Enjoyed every moment of picnic" - BRG](./stories/brg.md)
