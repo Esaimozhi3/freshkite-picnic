@@ -16,5 +16,6 @@ and have fun.
 5. Tea break              - 4.30 PM
 6. Play time              - 4.30 PM -8.30 PM
 7. End Journey starts     - 8.30 PM
+8. Dinner time            - 9.00 PM
 
 1. ["Enjoyed every moment of picnic" - BRG](./stories/brg.md)
