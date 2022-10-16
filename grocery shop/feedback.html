@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #header
+{
+  width: 100%;
+  height: 100px;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+  </style>
+</head>
+<body>
+  <div class="bodytag">
+    <div id="header"> 
+      <h2>Friendscart</h2>
+  </div>
+    <div class="container">
+      <h2 style="text-align: center;">Feedback</h2>
+      <p>Please write your feedback below</p>
+      <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Name:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter Name" name="pwd">
+        </div>
+        <br>
+        <br>
+        <div class="content">
+          <label for="cnt"></label>
+          <input type="feedback" class="content" id="pwd" placeholder="Write your msg here" name="content">
+        </div>
+        <!-- <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div> -->
+        <br>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    <div id="footer">© 2022 – Friendscart Pvt.Ltd. All Rights Reserved</div>
+
+
+  </div>
+
+
+
+</body>
+</html>

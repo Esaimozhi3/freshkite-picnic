@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>blogs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  200px 200px 200px;
+  background-color: white;
+  padding: 50px;
+  height: 500px;
+  grid-gap: 20px;
+  
+}
+.child {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/* style for header area copied from products area */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  position: sticky;
+  bottom: 0;
+}
+.child {
+  position: relative;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <h2 style="text-align: center;">Our Blogs</h2>
+    </div>
+
+    <div class="parent">
+        <div class="child-tag child"><iframe src="https://www.youtube.com/embed/OOy764mDtiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="child">crops</div>
+        <div class="child">Harvesting</div>  
+        <div class="child">our farm</div>
+        <div class="child">our team</div>
+        <div class="child">factory</div>  
+    </div>
+
+    <div class="footer">
+        <p>© 2022 – Friendskart Pvt.Ltd. All Rights Reserved</p>
+    </div>
+</body>
+</html>
