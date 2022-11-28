@@ -1,0 +1,21 @@
+
+.name{
+  display: flex;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  border-top-color: #EDE04D;
+  border-top-width: 10px;
+  width: 28rem;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.apps {
+  background-color: lightgray;
+}
+
